@@ -77,7 +77,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     position: absolute;
     bottom: 0;
     right: 0px;
-    mix-blend-mode: lighten;
 }
 
 @media(max-width: 991px) {
