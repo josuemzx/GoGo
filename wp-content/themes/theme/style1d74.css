@@ -166,7 +166,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 .poster-work .poster-button {
     position: relative;
     display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
+    background: #424C0433;
     border-radius: 16px;
     padding: 10px;
     font-size: 0;
