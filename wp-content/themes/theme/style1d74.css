@@ -1054,7 +1054,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     display: block;
     position: absolute;
     top: -69px;
-    left: 50%;
+    left: 70%;
     max-width: 100%;
     background: linear-gradient(180deg, rgba(11, 13, 14, 0) 0%, #0d0d0d 79.8%), url(images/logo3.png);
     background-repeat: no-repeat;
