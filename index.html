@@ -16,21 +16,6 @@
     </script>
 
 
-    <script>
-        function toggleAnswer(element) {
-            var answer = element.nextElementSibling;
-            if (answer.style.display === "none" || answer.style.display === "") {
-                answer.style.display = "block";
-            } else {
-                answer.style.display = "none";
-            }
-        }
-    </script>
-
-
-
-
-
 
     <script data-cfasync="false" type='text/javascript'>
         window._vwo_code = window._vwo_code || (function() {
@@ -3538,22 +3523,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="section section-faq">
         <div class="container">
             <span class="text-mini">FAQs</span>
-            <div class="section-title">Pregduntas frecuentes</div>
+            <div class="section-title">Preguntasi frecuentes</div>
             <div class="section-content">
                 <div class="faq">
                     <div class="faq-item">
-                        <div class="faq-question" onclick="toggleAnswer('answer1')">¿Cómo funciona?</div>
-                        <div class="faq-answer" id="answer1">
-                            <p>Con Félix, puedes enviar dinero a Latinoamérica directamente desde WhatsApp...</p>
+                        <div class="faq-question" onclick="toggleAnswer(this)">
+                            ¿Cómo funciona?
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_465_771)">
+                                <path d="M4.5 15L12 7.5L19.5 15" stroke="#24292D" stroke-width="3" stroke-linecap="square"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_465_771">
+                                    <rect width="24" height="24" fill="white" transform="translate(24 24) rotate(-180)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Con Félix, puedes enviar dinero a Latinoamérica directamente desde WhatsApp. Solo necesitas responder las preguntas del chatbot y una vez que hayas proporcionado toda la información necesaria, recibirás un link de pago. Tu
+                                recibo estará disponible en cuestión de minutos.</p>
+                            <p>Si tienes alguna pregunta, no dudes en escribirnos. Nuestros agentes están disponibles las 24/7 para atenderte.</p>
                         </div>
                     </div>
                     <div class="faq-item">
-                        <div class="faq-question" onclick="toggleAnswer('answer2')">¿Cómo me registro?</div>
-                        <div class="faq-answer" id="answer2">
-                            <p>No es necesario crear una cuenta, simplemente ingresa tu número de WhatsApp...</p>
+                        <div class="faq-question" onclick="toggleAnswer(this)">
+                            ¿Cómo me registro?
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_465_771)">
+                                <path d="M4.5 15L12 7.5L19.5 15" stroke="#24292D" stroke-width="3" stroke-linecap="square"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_465_771">
+                                    <rect width="24" height="24" fill="white" transform="translate(24 24) rotate(-180)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No es necesario crear una cuenta, simplemente ingresa tu número de WhatsApp en nuestra página web para iniciar la transferencia. Para futuros envíos simplemente escríbele a Félix desde WhatsApp.</p>
                         </div>
                     </div>
-                    <!-- Agrega más preguntas y respuestas aquí -->
+                    <!-- Repite la estructura para otras preguntas y respuestas -->
                 </div>
                 <a href="faqs/index.html" class="link link-blue">
                     <span>Ver más preguntas frecuentes</span>
