@@ -466,7 +466,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* Section 6: por qué enviar */
 
-.columns-why-felix {
+.columns-why-gogo {
     display: flex;
     padding: 120px 100px;
     background: var(--text-light-700);
@@ -475,29 +475,29 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     position: relative;
 }
 
-.columns-why-felix .section-title {
+.columns-why-gogo .section-title {
     min-width: 450px;
 }
 
-.columns-why-felix .link {
+.columns-why-gogo .link {
     displaY: inline-block;
     margin-top: 40px;
     text-decoration: none;
 }
 
-.columns-why-felix .link-text-underline {
+.columns-why-gogo .link-text-underline {
     border-bottom: 1px solid var(--text-color-orange-900);
 }
 
-.columns-why-felix .link svg {
+.columns-why-gogo .link svg {
     transform: translateY(2px);
 }
 
-.columns-why-felix .column-separator {
+.columns-why-gogo .column-separator {
     width: 74px;
 }
 
-.columns-why-felix .image-dart {
+.columns-why-gogo .image-dart {
     position: absolute;
     bottom: -20px;
     left: 220px;
@@ -542,19 +542,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 @media(max-width: 991px) {
-    .section-why-felix {
+    .section-why-gogo {
         margin: 0;
         overflow-x: hidden;
         padding: 60px 0 94px;
     }
-    .columns-why-felix {
+    .columns-why-gogo {
         flex-direction: column;
         padding: 56px 32px 110px;
     }
-    .columns-why-felix .column-separator {
+    .columns-why-gogo .column-separator {
         height: 56px;
     }
-    .columns-why-felix .image-dart {
+    .columns-why-gogo .image-dart {
         position: absolute;
         bottom: 0;
         left: initial;
@@ -562,7 +562,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
         right: -30px;
         width: 194px;
     }
-    .columns-why-felix .link {
+    .columns-why-gogo .link {
         margin-top: 24px;
     }
     .list-reason .list-item {
@@ -580,7 +580,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
         width: 24px;
         margin-top: -4px;
     }
-    .columns-why-felix .section-title {
+    .columns-why-gogo .section-title {
         min-width: auto;
     }
 }
