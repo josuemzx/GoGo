@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Preguntas Frecuentes</title>
+    <style>
+        .question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .answer {
+            display: none;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById(id);
+            if (answer.style.display === "none") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Preguntas Frecuentes</h1>
+
+    <div class="question" onclick="toggleAnswer('answer1')">¿Cómo creo una cuenta?</div>
+    <div class="answer" id="answer1">Para crear una cuenta, visita nuestra página de registro y sigue los pasos indicados.</div>
+
+    <div class="question" onclick="toggleAnswer('answer2')">¿Cuáles son los métodos de pago aceptados?</div>
+    <div class="answer" id="answer2">Aceptamos tarjetas de crédito y débito, así como PayPal como métodos de pago.</div>
+
+    <div class="question" onclick="toggleAnswer('answer3')">¿Puedo cambiar mi contraseña?</div>
+    <div class="answer" id="answer3">Sí, puedes cambiar tu contraseña desde la sección de configuración de tu cuenta.</div>
+
+    <!-- Agrega más preguntas y respuestas aquí -->
+
+</body>
+
+</html>
